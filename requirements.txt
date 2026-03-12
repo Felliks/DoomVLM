@@ -1,0 +1,6 @@
+vizdoom>=1.2.0
+Pillow>=10.0.0
+numpy>=1.24.0
+requests>=2.31.0
+ipywidgets>=8.0.0
+jupyterlab>=4.0.0

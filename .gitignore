@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*.code-workspace
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ViZDoom (auto-generated)
+_vizdoom.ini
+*.lmp
+
+# Project runtime artifacts
+workspace/
+screenshots/
+logs/
+results/
+doom_deathmatch_results.zip
+
+# Recordings
+*.gif
+*.mp4
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Claude Code
+.claude/
