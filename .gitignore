@@ -36,6 +36,8 @@ doom_deathmatch_results.zip
 # Recordings
 *.gif
 *.mp4
+!media/*.gif
+!media/*.png
 
 # OS
 .DS_Store

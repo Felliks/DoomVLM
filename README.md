@@ -8,7 +8,7 @@
 [![LM Studio](https://img.shields.io/badge/Backend-LM%20Studio-purple)](https://lmstudio.ai/)
 
 <p align="center">
-  <img src="banner.png" alt="DoomVLM Banner" width="700">
+  <img src="media/banner.png" alt="DoomVLM Banner" width="700">
 </p>
 
 A Jupyter notebook that lets AI vision models play classic Doom. The AI sees the game screen, decides where to shoot or move, and you watch it happen in real time. Pit up to 4 different models against each other in deathmatch — or test them solo on 11 built-in scenarios.
@@ -18,6 +18,10 @@ A Jupyter notebook that lets AI vision models play classic Doom. The AI sees the
 ```
 Screenshot → Grid Overlay → VLM API (tool calling) → shoot / move → Game
 ```
+
+<p align="center">
+  <img src="media/gameplay.gif" alt="DoomVLM Gameplay" width="500">
+</p>
 
 ---
 
