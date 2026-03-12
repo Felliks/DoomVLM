@@ -404,6 +404,19 @@ Use these in system and user prompts — they're replaced with live game values:
 | **Image Size** | 128–1024 | 512 | Screenshot resolution sent to VLM (larger = more detail, slower) |
 | **Record Format** | none/gif/mp4 | none | Save episode recordings with stat overlays |
 
+### Output Files
+
+Each run creates a timestamped directory inside `workspace/`:
+
+```
+workspace/0001_20260311_221500/
+├── game.log          # Detailed game log (every VLM call, action, stats)
+├── results/          # GIF/MP4 recordings with stat overlays
+└── screenshots/      # Individual frames (used for MP4 encoding)
+```
+
+After the run you can download everything as a single ZIP archive from the notebook.
+
 ---
 
 ## How It Works
